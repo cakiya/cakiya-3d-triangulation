@@ -1,0 +1,45 @@
+body {
+	background-color: black;
+	color:#ccc;
+	stroke:#ccc;
+	font-family: 'Michroma';
+}
+
+.widget-header{
+	font-size: 30pt;
+	font-weight:bold;
+	margin-bottom: 7px;
+	color:#828282;
+	background: linear-gradient(90deg, #232323, black); /*#232323;*/
+}
+
+.container_row{
+	display:flex;
+	justify-content:space-around;
+	font-family: 'Michroma', sans-serif;
+}
+
+.container_2col{
+	float : left;
+	width: 50%;
+	text-align: center;
+	color:white;
+	font-size:10pt;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+.btnSubmit {
+/*  background-color: white;*/
+  color: black;
+  border: 2px solid #e7e7e7;
+  border-radius: 4px;
+}
+
+.btnSubmit:hover {background-color: #e7e7e7;}
